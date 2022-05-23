@@ -1,0 +1,36 @@
+.Encabezado {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.Wrapper {
+  height: 40px;
+  background-color: #ffe7eb;
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  border-radius: 0px 0px 20px 20px;
+}
+.Logo {
+  flex: 1;
+  font-size: 40px;
+}
+.Right {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+.ocpiones {
+  flex: 2;
+  display: flex;
+  justify-content: space-evenly;
+}
+.contacto {
+  flex: 1;
+  display: flex;
+  justify-content: space-evenly;
+}
